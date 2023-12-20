@@ -60,7 +60,7 @@ const Aboutus = () => {
     }
 
     if (!value.cpassword) {
-      errors.cpassword = 'Repeat password is required!';
+      errors.cpassword = 'Confirm your password!';
     } else if (value.cpassword !== value.password) {
       errors.cpassword = 'Passwords do not match!';
     }

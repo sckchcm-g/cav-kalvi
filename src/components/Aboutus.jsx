@@ -131,7 +131,7 @@ const Aboutus = () => {
           <p className='error-text'>{errors.cpassword}</p>
 
           <div className='btn-div'>
-          <button className="button">Submit</button>
+          <button className="button">SignUp</button>
           <button onClick={() => setData(inputvalue)} className='button reset-btn'>Reset</button>
           </div>
 
